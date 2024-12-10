@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+
+body{
+    background-color: rgb(71, 71, 71);
+    width: 100vw;
+    height: 100vw;
+    margin: 0;
+}
+
+main{
+    width: 100vw;
+    height: 100vw;
+    margin: auto;
+    
+    
+}
+
+button{
+    background-color: rgb(0, 0, 0);
+    width:20%;
+    height: 25%;
+    border-radius: 10px;
+    background: white;
+    font-size: clamp(5vw,10vw, 15vw);
+    
+}
+
+.fundo{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    height: 40vh;
+    flex-wrap: wrap;
+    width: 98.1vw;
+    margin: auto;
+    border-radius: 0px 0px  15px 15px;
+    
+}
+
+.tela{
+    text-align: end;
+    border-radius: 15px 15px 0px 0px;
+    width: 98.1vw;
+    font-size: clamp(10vw,20vw, 30vw);
+    height: 50vh;
+    max-height: 500px;
+    color:black ;
+    background-color: aliceblue;
+    background-image: url('img/tela.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+ .grande{
+    background: grey;
+    color: white;
+    width: 40%;
+    font-size: 40px;
+ }
+
+button:hover {
+    background-color: rgb(221, 221, 221);
+}
+
+.grande:hover{
+    background-color: rgb(88, 88, 88);
+}
+#apagar {
+    font-size: 21px;
+}
+#img {background-image: url('img/nagi.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
